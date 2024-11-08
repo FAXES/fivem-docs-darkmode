@@ -1,0 +1,36 @@
+@media (prefers-color-scheme: dark) {
+	section {
+		background-color: #161824 !important;
+	}
+
+	aside {
+		background-color: #161824 !important;
+		border-right: 1px solid #2d3037 !important;
+	}
+
+	nav {
+		background-color: #2d3037 !important;
+	}
+
+	body {
+		background-color: #161824;
+		color: #FFFF !important;
+		--fg: #FFFF !important;
+	}
+
+	section .docContent pre {
+		background-color: #2d3037 !important;
+
+	}
+
+	section .docContent code {
+		background-color: #2d3037 !important;
+	}
+
+	.alert {
+		background-color: #2d3037 !important;
+	}
+	span {
+		color: #FFFF !important;
+	}
+}
