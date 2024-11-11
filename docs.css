@@ -81,7 +81,7 @@
 		position: relative;
 	}
 
-	.model {
+	.models .model {
 		padding: 5px;
 		margin: 5px;
 		border: 1px solid #242735;
