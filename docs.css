@@ -18,6 +18,78 @@
 		--fg: #FFFF !important;
 	}
 
+	.blips .blip {
+		padding: 5px;
+		margin: 5px;
+		border: 1px solid #242735;
+		background-color: #161824;
+		position: relative;
+		justify-content: center;
+		flex-direction: column;
+		display: flex;
+	}
+
+	.vehicle .vehicle-info {
+		padding: 5px 10px;
+		font-size: 0.8em;
+		background: #161824;
+		border-top: 1px solid #1a1c21;
+		color: #333;
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		flex-grow: 1;
+	}
+
+	.vehicles .vehicle {
+		background: #242735;
+		color: #000;
+		border: 1px solid #242735;
+		border-radius: 8px;
+		overflow: hidden;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		transition: box-shadow 0.3s ease-in-out;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+	}
+
+	.markers .marker {
+		padding: 2.5px;
+		margin: 2.5px;
+		border: 1px solid #242735;
+		background-color: #161824;
+		position: relative;
+	}
+	.checkpoints .checkpoint {
+		padding: 2.5px;
+		margin: 2.5px;
+		border: 1px solid #242735;
+		background-color: #161824;
+		position: relative;
+	}
+
+	.colours .colour {
+		padding: 2.5px;
+		margin: 2.5px;
+		border: 1px solid #242735;
+		background-color: #161824;
+		position: relative;
+	}
+
+	.model {
+		padding: 5px;
+		margin: 5px;
+		border: 1px solid #242735;
+		background-color: #161824;
+		position: relative;
+	}
+
+
 	section .docContent pre {
 		background-color: #2d3037 !important;
 
@@ -30,6 +102,7 @@
 	.alert {
 		background-color: #2d3037 !important;
 	}
+
 	span {
 		color: #FFFF !important;
 	}
