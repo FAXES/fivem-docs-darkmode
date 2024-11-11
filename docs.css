@@ -1,109 +1,178 @@
 @media (prefers-color-scheme: dark) {
-	section {
-		background-color: #161824 !important;
-	}
+  section {
+    background-color: #161824 !important;
+  }
 
-	aside {
-		background-color: #161824 !important;
-		border-right: 1px solid #2d3037 !important;
-	}
+  aside {
+    background-color: #161824 !important;
+    border-right: 1px solid #2d3037 !important;
+  }
 
-	nav {
-		background-color: #2d3037 !important;
-	}
+  nav {
+    background-color: #2d3037 !important;
+  }
 
-	body {
-		background-color: #161824;
-		color: #FFFF !important;
-		--fg: #FFFF !important;
-	}
+  body {
+    background-color: #161824;
+    color: #ffff !important;
+    --fg: #ffff !important;
+  }
 
-	.blips .blip {
-		padding: 5px;
-		margin: 5px;
-		border: 1px solid #242735;
-		background-color: #161824;
-		position: relative;
-		justify-content: center;
-		flex-direction: column;
-		display: flex;
-	}
+  .weapons .weapon {
+    background: #161824;
+    color: #000;
+    border: 1px solid #242735;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    min-width: 220px;
+    max-width: 300px;
+  }
 
-	.vehicle .vehicle-info {
-		padding: 5px 10px;
-		font-size: 0.8em;
-		background: #161824;
-		border-top: 1px solid #1a1c21;
-		color: #333;
-		text-align: left;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-start;
-		flex-grow: 1;
-	}
+  .weapons .weapon .weapon-info {
+	padding: 5px 10px;
+	font-size: 0.8em;
+	background: #161824;
+	border-top: 1px solid #242735;
+	color: #333;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	flex-grow: 1;
+  }
 
-	.vehicles .vehicle {
-		background: #242735;
-		color: #000;
-		border: 1px solid #242735;
-		border-radius: 8px;
-		overflow: hidden;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-		transition: box-shadow 0.3s ease-in-out;
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		height: 100%;
-	}
+  .weapons .weapon .weapon-info .components details {
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	background: #212436;
+	border-top: 1px solid #242735;
+	margin-top: 10px;
+	padding: 5px;
+	width: 200px;
+	overflow-x: auto;
+  }
 
-	.markers .marker {
-		padding: 2.5px;
-		margin: 2.5px;
-		border: 1px solid #242735;
-		background-color: #161824;
-		position: relative;
-	}
-	.checkpoints .checkpoint {
-		padding: 2.5px;
-		margin: 2.5px;
-		border: 1px solid #242735;
-		background-color: #161824;
-		position: relative;
-	}
+  .weapons .weapon .weapon-info .components tints {
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	background: #212436;
+	border-top: 1px solid #242735;
+	margin-top: 10px;
+	padding: 5px;
+	width: 200px;
+	overflow-x: auto;
+}
 
-	.colours .colour {
-		padding: 2.5px;
-		margin: 2.5px;
-		border: 1px solid #242735;
-		background-color: #161824;
-		position: relative;
-	}
+  .blips .blip {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #242735;
+    background-color: #161824;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  }
 
-	.models .model {
-		padding: 5px;
-		margin: 5px;
-		border: 1px solid #242735;
-		background-color: #161824;
-		position: relative;
-	}
+  .vehicle .vehicle-info {
+    padding: 5px 10px;
+    font-size: 0.8em;
+    background: #161824;
+    border-top: 1px solid #1a1c21;
+    color: #333;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+  }
 
+  .vehicles .vehicle {
+    background: #242735;
+    color: #000;
+    border: 1px solid #242735;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
 
-	section .docContent pre {
-		background-color: #2d3037 !important;
+  .markers .marker {
+    padding: 2.5px;
+    margin: 2.5px;
+    border: 1px solid #242735;
+    background-color: #161824;
+    position: relative;
+  }
+  .checkpoints .checkpoint {
+    padding: 2.5px;
+    margin: 2.5px;
+    border: 1px solid #242735;
+    background-color: #161824;
+    position: relative;
+  }
 
-	}
+  .colours .colour {
+    padding: 2.5px;
+    margin: 2.5px;
+    border: 1px solid #242735;
+    background-color: #161824;
+    position: relative;
+  }
 
-	section .docContent code {
-		background-color: #2d3037 !important;
-	}
+  .models .model {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #242735;
+    background-color: #161824;
+    position: relative;
+  }
 
-	.alert {
-		background-color: #2d3037 !important;
-	}
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
 
-	span {
-		color: #FFFF !important;
-	}
+  ::-webkit-scrollbar-track {
+    background: #1f2233;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #3d4363;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(74, 77, 90);
+  }
+
+  section .docContent pre {
+    background-color: #2d3037 !important;
+  }
+
+  section .docContent code {
+    background-color: #2d3037 !important;
+  }
+
+  .alert {
+    background-color: #2d3037 !important;
+  }
+
+  span {
+    color: #ffff !important;
+  }
 }
