@@ -6,5 +6,15 @@
    "content_scripts": [{
       "matches": ["https://docs.fivem.net/*", "https://redm.disquse.me/*"],
       "css": ["docs.css"]
-   }]
+   }],
+
+   "action": {
+      "default_title": "FiveM/RedM Dark Mode",
+      "default_icon": {
+         "16": "icons/icon16.png",
+         "32": "icons/icon32.png",
+         "48": "icons/icon48.png",
+         "128": "icons/icon128.png"
+      }
+   }
 }
