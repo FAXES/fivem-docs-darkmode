@@ -18,7 +18,9 @@ This Chrome extension enables dark mode for the CFX FiveM documentation and fan-
 ## Changelog
 - v1.0: Initial release
 
-- v1.1: Added Support for Vehicles Models, Blips and Weapons 
+- v1.1: Added Support for Vehicles Models, Blips and Weapons
+
+- v1.2: Added a Official Icon for the Extension
 
 ## Contributors
 - [Faxes](https://github.com/FAXES)
