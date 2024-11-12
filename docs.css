@@ -92,6 +92,10 @@
     color: #fff !important;
   }
 
+  pre .language-js {
+    color: #fff !important;
+  }
+
   .blips .blip {
     padding: 5px;
     margin: 5px;
