@@ -1,7 +1,7 @@
 {
    "name": "FiveM/RedM Dark Mode",
    "description": "This extension changes the theme on the FiveM Documentation websites to be dark mode where the operating system has it enabled.",
-   "version": "1.0",
+   "version": "1.1",
    "manifest_version": 3,
    "content_scripts": [{
       "matches": ["https://docs.fivem.net/*", "https://redm.disquse.me/*"],
