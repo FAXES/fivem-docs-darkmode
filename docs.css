@@ -88,6 +88,10 @@
     overflow-x: auto;
 }
 
+  pre .language-lua {
+    color: #fff !important;
+  }
+
   .blips .blip {
     padding: 5px;
     margin: 5px;
