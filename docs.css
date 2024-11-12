@@ -96,6 +96,10 @@
     color: #fff !important;
   }
 
+  pre .language-csharp {
+    color: #fff !important;
+  }
+
   .blips .blip {
     padding: 5px;
     margin: 5px;
