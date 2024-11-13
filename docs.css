@@ -35,43 +35,70 @@
     max-width: 300px;
   }
 
+  .code .language-lua {
+    color: #fff !important;
+  }
+
+  .code .language-typescript {
+    color: #fff !important;
+  }
+
   .weapons .weapon .weapon-info {
-	padding: 5px 10px;
-	font-size: 0.8em;
-	background: #161824;
-	border-top: 1px solid #242735;
-	color: #333;
-	text-align: left;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	flex-grow: 1;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    background: #161824;
+    border-top: 1px solid #242735;
+    color: #333;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
   }
 
   .weapons .weapon .weapon-info .components details {
-	cursor: pointer;
-	color: white;
-	font-weight: bold;
-	background: #212436;
-	border-top: 1px solid #242735;
-	margin-top: 10px;
-	padding: 5px;
-	width: 200px;
-	overflow-x: auto;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background: #212436;
+    border-top: 1px solid #242735;
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+    overflow-x: auto;
+  }
+  
+  .examples .react-tabs .react-tabs__tab--selected {
+    background: #fff;
+    border-color: #aaa;
+    color: #909090;
+    border-radius: 5px 5px 0 0;
   }
 
   .weapons .weapon .weapon-info .components tints {
-	cursor: pointer;
-	color: white;
-	font-weight: bold;
-	background: #212436;
-	border-top: 1px solid #242735;
-	margin-top: 10px;
-	padding: 5px;
-	width: 200px;
-	overflow-x: auto;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background: #212436;
+    border-top: 1px solid #242735;
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+    overflow-x: auto;
 }
+
+  pre .language-lua {
+    color: #fff !important;
+  }
+
+  pre .language-js {
+    color: #fff !important;
+  }
+
+  pre .language-csharp {
+    color: #fff !important;
+  }
 
   .blips .blip {
     padding: 5px;
